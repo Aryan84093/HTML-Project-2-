@@ -38,5 +38,40 @@
             <td>4</td>
         </tr>
     </table>
+    <br>
+    <hr>
+    <form action="/server">
+        <label for="Name">Name:</label>
+        <input type="text" name="User" id="Name">
+        <div>
+            Sex :
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <div>
+                Country:
+                <select name="Count" id="Country">
+                    <option value="None">Select an option</option>
+                    <option value="india">India</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+            </div>
+            <div>
+                Message:
+                <br>
+                <textarea name="Feedback" id=""></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="Subs" id="Subscribe">
+                <label for="Subscribe">Subscribe?</label>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
